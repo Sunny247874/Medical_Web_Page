@@ -1,0 +1,204 @@
+
+/*header Section Start*/
+@media (max-width:768px){
+    .head-top {
+       
+       display: none;
+    }
+    .head .nav-bar {
+        display: none;
+    }
+    .head .navbar-toogle{
+        display: block;
+    }
+    .head .row {
+        justify-content:space-between;
+    }
+
+}
+
+
+
+/*banner Section Start */
+
+@media (max-width:1440px){
+    .banner .owl-carousel .owl-nav {
+        left: 36%;
+    }
+}
+@media (max-width:1024px){
+    .banner .owl-carousel .owl-nav{
+        left: 31%;
+    }
+    .banner .col-left h1.text{
+        font-size: calc(1.475rem + 2.7vw);
+    }
+
+    .banner .owl-carousel .text-content h3{
+        font-size: calc(1.625rem + 4.5vw);
+    }
+}
+
+@media (max-width:768px){
+    .banner .row-gs-1{
+        display:flex;
+        flex-direction: column-reverse;
+    }
+
+    .banner .col-left{
+        width: 100%;
+    }
+    .banner .col-right{
+        width: 100%;
+    }
+    .banner .owl-carousel .owl-nav {
+        left: 37%;
+    }
+}
+
+@media (max-width:425px){
+    .banner .owl-carousel .owl-nav {
+        left: 27%;
+    }
+    .banner .row-gs-2{
+        display: block;
+    }
+}
+
+
+/*About Section Start */
+@media (max-width:768px){
+    
+    .about-us .col-lg{
+        width: 100%;
+    }
+}
+
+/*Service Section Starrt*/
+@media(max-width:768px){
+    .service .row .col-lg-4{
+        width: 50%;
+    }
+}
+
+@media(max-width:425px){
+    .service .row .col-lg-4{
+        width: 100%;
+    }
+}
+
+
+
+
+/*Feature Section Start */
+@media(max-width:768px){
+    
+    
+    .feature .right{
+        width: 100%;
+    }
+    .feature .left{
+        width: 100%;
+    }
+    .feature .right .position-relative{
+        position: static;
+        left: 0;
+        right: 0;
+        width: 100%;
+    }
+}
+
+
+/*Doctor Section Start */
+
+@media(max-width:768px){
+    .doctor .col-lg-3{
+        width: 50%;
+    }
+}
+
+@media(max-width:425px){
+    .doctor .col-lg-3 {
+        width: 100%;
+    }
+}
+
+
+/*Appointment Section Start */
+
+@media(max-width:1000px){
+   
+
+    .appointment .left{
+        width: 100%;
+    }
+    .appointment .right{
+        width: 100%;
+    }
+    .appointment .row-g-5{
+        display: block;
+    }
+}
+
+@media(max-width:425px){
+    
+    
+    .appointment .right .sm-6 {
+        width: 100%;
+    }
+}
+
+
+/*Testimonial Section Start */
+
+@media(max-width:1024px){
+    .testimonial .container{
+        max-width: 960px;
+    }
+}
+
+@media(max-width:768px){
+    .testimonial .container{
+        max-width: 720px;
+    }
+}
+@media(max-width:650px){
+    .testimonial .container{
+        max-width: 400px;
+    }
+    .testimonial .owl-carousel::after {
+        background:none;
+    }
+    .testimonial .owl-carousel::before{
+        background: none;
+    }
+}
+
+/*Footer Section Start */
+
+@media(max-width:768px){
+    footer .col-lg-3{
+      width: 50%;
+    }
+}
+
+@media(max-width:425px){
+    footer .col-lg-3{
+      width: 100%;
+    }
+    footer .copyright .col-md-6:nth-child(2) {
+        text-align: center;
+        
+    }
+    footer .copyright .col-md-6{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    footer .copyright .col-md-6 {
+        width: 100%;
+    }
+}
+
+
+
+
